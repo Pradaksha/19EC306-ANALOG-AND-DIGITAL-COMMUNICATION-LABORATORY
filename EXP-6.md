@@ -6,18 +6,15 @@ MATLAB
 
 # PROGRAM:
 clc;
+
 clear;
+
 close all;
-
 t = 0:0.0001:0.15;
-
 m = square(2*pi*10*t);
-
 c1 = sin(2*pi*60*t);
 c2 = sin(2*pi*120*t);
-
 s1 = zeros(size(t));
-
 for i = 1:length(t)
     if m(i) == 1
         s1(i) = c1(i);
@@ -25,7 +22,6 @@ for i = 1:length(t)
         s1(i) = c2(i);
     end
 end
-
 figure;
 
 subplot(4,1,1);
@@ -53,6 +49,7 @@ ylabel('Amplitude');
 title('BFSK Modulated Output');
 
 # OUTPUT:
+<img width="838" height="608" alt="image" src="https://github.com/user-attachments/assets/1c58c78b-5276-44af-ad21-cee33eb6c871" />
 
 # RESULT:
 Thus, generation of FSK was implemented using MATLAB.
