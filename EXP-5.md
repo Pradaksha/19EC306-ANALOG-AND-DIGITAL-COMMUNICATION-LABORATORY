@@ -1,5 +1,5 @@
 # AIM:
-To implement ASK, FSK, BPSK using MATLAB.
+To implement ASK using MATLAB.
 
 # SOFTWARE REQUIRED:
 MATLAB
@@ -26,6 +26,7 @@ subplot(3,1,3);
 plot(y1);
 
 # OUTPUT:
+<img width="845" height="605" alt="image" src="https://github.com/user-attachments/assets/0a42462b-d2eb-4a5f-9785-90f48c6f94fc" />
 
 # RESULT:
 Thus, generation of ASK was implemented using MATLAB.
